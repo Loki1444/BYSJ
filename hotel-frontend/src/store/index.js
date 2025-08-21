@@ -5,23 +5,23 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    user: JSON.parse(localStorage.getItem('user')) || null,
-    token: localStorage.getItem('token') || null
+    user: JSON.parse(sessionStorage.getItem('user')) || null,
+    token: sessionStorage.getItem('token') || null
   },
   mutations: {
     SET_USER (state, user) {
       state.user = user
-      localStorage.setItem('user', JSON.stringify(user))
+      sessionStorage.setItem('user', JSON.stringify(user))
     },
     SET_TOKEN (state, token) {
       state.token = token
-      localStorage.setItem('token', token)
+      sessionStorage.setItem('token', token)
     },
     CLEAR_AUTH (state) {
       state.user = null
       state.token = null
-      localStorage.removeItem('user')
-      localStorage.removeItem('token')
+      sessionStorage.removeItem('user')
+      sessionStorage.removeItem('token')
     }
   },
   actions: {

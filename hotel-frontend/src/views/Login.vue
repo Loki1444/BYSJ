@@ -112,6 +112,8 @@ export default {
                   user: response.data.user,
                   token: response.data.token
                 })
+                console.log('登录成功，数据已存储到sessionStorage')
+                console.log('sessionStorage token:', sessionStorage.getItem('token'))
                 this.$message.success('登录成功')
                 this.$router.push('/')
               } else {

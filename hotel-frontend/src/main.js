@@ -18,7 +18,7 @@ axios.defaults.timeout = 10000
 // 请求拦截器
 axios.interceptors.request.use(
   config => {
-    const token = localStorage.getItem('token')
+    const token = sessionStorage.getItem('token')
     if (token) {
       config.headers.Authorization = `Bearer ${token}`
     }
@@ -36,8 +36,8 @@ axios.interceptors.response.use(
   },
   error => {
     if (error.response && error.response.status === 401) {
-      localStorage.removeItem('token')
-      localStorage.removeItem('user')
+      sessionStorage.removeItem('token')
+      sessionStorage.removeItem('user')
       router.push('/login')
     }
     return Promise.reject(error)
