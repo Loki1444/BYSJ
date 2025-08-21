@@ -1,0 +1,14 @@
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/dto/PageQuery.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/dto/PageResult.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/entity/User.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/entity/Order.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/HotelManagementApplication.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/service/UserService.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/controller/AuthController.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/entity/RoomType.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/mapper/UserMapper.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/dto/Result.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/entity/Customer.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/entity/Room.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/utils/JwtUtil.java
+/Users/yhz/Desktop/BYSJ/hotel-backend/src/main/java/com/hotel/management/config/CorsConfig.java
